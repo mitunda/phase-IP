@@ -36,7 +36,7 @@ span {
     gap: 20px;
 }
 
-/* button {
+ button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -44,7 +44,7 @@ span {
     cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
     background-color: #45a049;
 }
 
