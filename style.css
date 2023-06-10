@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 
-/* .who {
+.who {
     background: rgba(83, 39, 47, 0.5);
     width: 450px;
     float: left;
@@ -16,7 +16,7 @@ body {
     margin-left: 1%;
 }
 
-.project {
+/* .project {
     padding-right: 50%;
     width: 200px;
     float: right;
@@ -69,4 +69,4 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-} */
+}  */
