@@ -30,13 +30,13 @@ span {
     color: red;
 }
 
-/* .container {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-button {
+/* button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -69,4 +69,4 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-}  */  
+}   */
