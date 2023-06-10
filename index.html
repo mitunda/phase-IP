@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+   <div class="comtainer">
     <div class="who">
         <h1>About Me</h1>
         <br>
@@ -16,6 +17,9 @@
         <br>
         <img src="./dp.jpeg" alt="profile picture" height="600px">
         <br>
+        
+    </div>
+    <div class="project">
         <h2>Who is peter</h2>
         <br>
         <p>
@@ -28,15 +32,33 @@
             <li>Tinkering with computers</li>
             <li>Playing video games</li>
         </ul>
-    </div>
-    <div class="project">
         <h3>My Pro<span>Jects</span></h3>
         <br>
         <p>I recently learned about version control and learned how to use git and GitHub.</p>
         <a href="https://github.com/mitunda/hello-world" target="_blank">My first GitHub repository</a>
         <br>
         <h3>Work <span>Experience</span></h3>
+        <ol>
+            <li>2016-2021: FTN Milk Bar in Kericho as an attendant.</li>
+            <li>2021-2022: Freelance writing and transcriptionist.</li>
+        </ol>
+        <br>
+        <div class="contact">
+            <h3>Contact Me</h3>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address">
+            </div>
+            <div class="input-container">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
         
     </div>
+   </div>
 </body>
 </html>
