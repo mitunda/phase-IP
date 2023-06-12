@@ -1,8 +1,4 @@
-document.getElementById('submitButton').addEventListener('click', function(event) {
-    event.preventDefault();
-    var email = document.getElementById('email').value;
-    var phone = document.getElementById('phone').value;
-
-    console.log('Email:', email);
-    console.log('Phone:', phone);
-});
+let submitButton = document.querySelector(".submit-button")
+submitButton.addEventListener("click", function(){
+    console.log(alert`submitted`);
+})
